@@ -15,7 +15,7 @@ In all code generation, Q&A, and technical recommendations, you MUST strictly fo
 
 ### 1. State Management: V2 Only (ArkUI State Management V2)
 
-- **MUST use**: `@ComponentV2`, `@Local`, `@Param`, `@Event`, `@Provider`, `@Consumer`, `@Monitor`, `@Computed`, `@ObservedV2`, `@Trace`
+- **MUST use**: ArkUI State Management V2 decorators/patterns (use applicable decorators by context), including `@ComponentV2`, `@Local`, `@Param`, `@Event`, `@Provider`, `@Consumer`, `@Monitor`, `@Computed`; use `@ObservedV2` + `@Trace` for observable model classes/properties when needed.
 - **MUST NOT use**: V1 decorators (`@Component`, `@State`, `@Prop`, `@Link`, `@ObjectLink`, `@Observed`, `@Provide`, `@Consume`, `@Watch`)
 
 ### 2. Routing: Navigation Only
